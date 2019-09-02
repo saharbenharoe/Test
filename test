@@ -1,0 +1,56 @@
+try:
+
+    x = input('select number:')
+    if x=="q":
+        quit()
+
+    else:
+        x = int(x)
+
+    y=input('select a second number:')
+    if y == 'q':
+        quit()
+    else:
+        y=int(y)
+
+    # x = input('select number:')
+    # y = input('select number:')
+    #
+    # if x == "q" or y=='q'
+    #     quit()
+    # else:
+    #     x = int(x)
+    #     y = int(y)
+    #
+    #
+
+except:
+    print ('this is no number!')
+    quit()
+
+
+
+
+print ('''
+press 1 for addition
+press 2 for subtraction
+press 3 for multiplication
+press 4 for division
+
+''')
+
+operation=input('=>')
+if operation =='1':
+    print (x+y)
+
+elif operation =='2':
+    print (x-y)
+
+elif operation =='3':
+    print(x*y)
+
+elif operation =='4':
+    print(x/y)
+
+else:
+     print ('error chice')
