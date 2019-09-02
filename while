@@ -1,0 +1,15 @@
+x=5
+counter=0
+while counter<3:
+        # try:
+        y = int(input('select a number:'))
+        if y==x:
+            print ("exellent!")
+            quit()
+        else:
+            if counter !=2:
+                print("choose again")
+            counter=counter+1
+
+print ('bad luck!')
+quit()
